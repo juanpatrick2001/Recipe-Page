@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Juan Patrick" />
+    <meta
+      name="description"
+      content="Resipe adalah web yang menyediakan berbagai koleksi resep masakan Amerika, China, Jepang, Indonesia, Italia, dan berbagai mancanegera lainnya"
+    />
+    <meta
+      name="keywords"
+      content="cook, masakan, resep, Indonesia, China, Italia, Jepang, food, Amerika, Thailand, Korea"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda</title>
+    <link rel="stylesheet" href="../assets/css/app.css" />
+    <link rel="stylesheet" href="../assets/css/home.css" />
+    <script src="../assets/icons/all.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- navigasi bar -->
+      <header>
+        <!-- logo navigasi -->
+        <div id="menu__logo">
+          <a id="logo" role="button" href="#">
+            <img width="200px" src="../assets/images/logo.svg" alt="logo"
+          /></a>
+        </div>
+        <!-- logo navigasi -->
+        <div id="btn__open">
+          <i class="fas fa-bars fa-xl"></i>
+        </div>
+        <!-- menu navigasi -->
+        <div id="menu__nav" class="close">
+          <div id="btn__close">
+            <i class="fa fa-close fa-xl"></i>
+          </div>
+          <nav>
+            <ul class="nav__content">
+              <li class="item__link active"><a href="#">Beranda</a></li>
+              <li class="item__link"><a href="./category.html">Menu</a></li>
+              <li class="item__link"><a href="./about.html">Tentang</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- menu navigasi -->
+      </header>
+      <!-- navigasi bar -->
+      <main>
+        <div id="content">
+          <section id="hero" class="flex justify-center items-center">
+            <div>
+              <p class="title__section">Mau masak apa hari ini</p>
+              <span class="link__menu flex justify-center items-center"
+                ><a href="./category.html">Cek Resep </a
+                ><i class="fa-solid fa-arrow-right-long fa-lg"></i
+              ></span>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <!-- menu footer -->
+        <div id="menu__footer" class="flex">
+          <!-- menu utama -->
+          <div id="menu__head" class="text-uppercase">
+            <ul>
+              <li class="menu__link"><a href="#">Beranda</a></li>
+              <li class="menu__link"><a href="./about.html">Tentang</a></li>
+            </ul>
+          </div>
+          <!-- menu utama -->
+          <!-- menu kategori resep -->
+          <div id="menu__category">
+            <div>
+              <h3 class="text-uppercase"><a href="./category.html">Menu</a></h3>
+            </div>
+            <div id="menu__wrap" class="flex">
+              <div class="menu__col">
+                <ul>
+                  <li class="menu__link"><a href="./category.html?food=American">Masakan Amerika</a></li>
+                  <li class="menu__link"><a href="./category.html?food=Chinese">Masakan China</a></li>
+                  <li class="menu__link"><a href="./category.html?food=Japanese">Masakan Jepang</a></li>
+                </ul>
+              </div>
+              <div class="menu__col">
+                <ul>
+                  <li class="menu__link"><a href="./category.html?food=Indonesian">Masakan Indonesia</a></li>
+                  <li class="menu__link"><a href="./category.html?food=Malaysia">Masakan Malaysia</a></li>
+                  <li class="menu__link"><a href="./category.html?food=Singapore">Masakan Singapura</a></li>
+                </ul>
+              </div>
+              <div class="menu__col">
+                <ul>
+                  <li class="menu__link"><a href="./category.html?food=Thailand">Masakan Thailand</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- menu kategori resep -->
+          <!-- menu sosial media -->
+          <div id="menu__social">
+            <h3 class="text-uppercase text-center">Hubungi Kami</h3>
+            <div id="collection__social" class="flex justify-center">
+              <a
+                href="#"
+                role="button"
+                aria-label="facebook"
+                class="btn__social flex justify-center items-center rounded"
+                ><i class="fab fa-facebook-f fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                role="button"
+                aria-label="instagram"
+                class="btn__social flex justify-center items-center rounded"
+                ><i class="fab fa-instagram fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                role="button"
+                aria-label="email"
+                class="btn__social flex justify-center items-center rounded"
+                ><i class="fa-solid fa-envelope fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                role="button"
+                aria-label="whatsapp"
+                class="btn__social flex justify-center items-center rounded"
+                ><i class="fab fa-whatsapp fa-xl"></i
+              ></a>
+            </div>
+          </div>
+          <!-- menu social media -->
+        </div>
+        <!-- menu footer -->
+        <!-- sign -->
+        <div id="menu__signature">
+          <span
+            >created by
+            <a
+              href="https://www.dicoding.com/users/juan_patrick"
+              target="_blank"
+              class="text-underline"
+              >Juan Patrick</a
+            >
+            - Dicoding Indonesia
+          </span>
+        </div>
+        <!-- sign -->
+      </footer>
+    </div>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

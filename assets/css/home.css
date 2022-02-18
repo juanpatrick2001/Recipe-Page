@@ -1,0 +1,22 @@
+#hero {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 80vh;
+  color: #ffffff;
+}
+
+.title__section {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+}
+
+.link__menu {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  column-gap: 13px;
+}
