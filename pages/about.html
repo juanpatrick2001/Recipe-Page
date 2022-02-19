@@ -1,369 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="Juan Patrick" />
-    <meta
-      name="description"
-      content="Resipe adalah web yang menyediakan berbagai koleksi resep masakan Amerika, China, Jepang, Indonesia, Italia, dan berbagai mancanegera lainnya"
-    />
-    <meta
-      name="keywords"
-      content="cook, masakan, resep, Indonesia, China, Italia, Jepang, food, Amerika, Thailand, Korea"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tentang</title>
-    <link rel="stylesheet" href="../assets/css/app.css" />
-    <link rel="stylesheet" href="../assets/css/about.css" />
-    <script src="../assets/icons/all.js"></script>
-  </head>
-  <body>
-    <div id="app">
-      <!-- navigasi bar -->
-      <header>
-        <!-- logo navigasi -->
-        <div id="menu__logo">
-          <a id="logo" role="button" href="../index.html">
-            <img width="200px" src="../assets/images/logo.svg" alt="logo"
-          /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Juan Patrick" />
+  <meta name="description"
+    content="Resipe adalah web yang menyediakan berbagai koleksi resep masakan Amerika, China, Jepang, Indonesia, Italia, dan berbagai mancanegera lainnya" />
+  <meta name="keywords"
+    content="cook, masakan, resep, Indonesia, China, Italia, Jepang, food, Amerika, Thailand, Korea" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tentang</title>
+  <link rel="stylesheet" href="../assets/css/app.css" />
+  <link rel="stylesheet" href="../assets/css/about.css" />
+  <script src="../assets/icons/all.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <!-- navigasi bar -->
+    <header id="navbar">
+      <!-- logo navigasi -->
+      <div id="menu__logo">
+        <a id="logo" role="button" href="../index.html">
+          <img width="200px" src="../assets/images/logo.svg" alt="logo" /></a>
+      </div>
+      <!-- logo navigasi -->
+      <div id="btn__open">
+        <i class="fas fa-bars fa-xl"></i>
+      </div>
+      <!-- menu navigasi -->
+      <div id="menu__nav" class="close">
+        <div id="btn__close">
+          <i class="fa fa-close fa-xl"></i>
         </div>
-        <!-- logo navigasi -->
-        <div id="btn__open">
-          <i class="fas fa-bars fa-xl"></i>
-        </div>
-        <!-- menu navigasi -->
-        <div id="menu__nav" class="close">
-          <div id="btn__close">
-            <i class="fa fa-close fa-xl"></i>
+        <nav>
+          <ul class="nav__content">
+            <li class="item__link"><a href="../index.html">Beranda</a></li>
+            <li class="item__link"><a href="./category.html">Menu</a></li>
+            <li class="item__link active"><a href="#">Tentang</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- menu navigasi -->
+    </header>
+    <!-- navigasi bar -->
+    <main>
+      <div id="content">
+        <section id="intro">
+          <header class="title__section">
+            <h1>I make this website because I want to show my passion</h1>
+          </header>
+          <!-- card -->
+          <div class="content">
+            <aside class="card bg-white mx-auto">
+              <header class="card__header">
+                <img src="../assets/images/about/Juan.png" width="200" class="rounded" alt="profil-pic" />
+              </header>
+              <div class="card__body">
+                <table class="mx-auto">
+                  <tbody>
+                    <tr>
+                      <td>Nama</td>
+                      <td>Juan Patrick</td>
+                    </tr>
+                    <tr>
+                      <td>Pekerjaan</td>
+                      <td>
+                        <ul>
+                          <li>Mahasiswa</li>
+                          <li>
+                            Peserta Bangkit learning path Cloud Computing
+                          </li>
+                          <li>Web Developer</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Skills</td>
+                      <td>HTML, CSS, JavaScript, Node Js, React Js, PSQL</td>
+                    </tr>
+                    <tr>
+                      <td class="vertical-middle">Ikuti saya:</td>
+                      <td>
+                        <div id="user__social" class="flex">
+                          <a href="https://www.instagram.com/juanpatrickseow" role="button" aria-label="instagram"
+                            class="flex justify-center items-center" target="_blank"><i
+                              class="fab fa-instagram fa-xl"></i></a>
+                          <a href="https://www.linkedin.com/in/juan-patrick-1018b3172" role="button"
+                            aria-label="linkedin" class="flex justify-center items-center" target="_blank"><i
+                              class="fab fa-linkedin fa-xl"></i></a>
+                          <a href="https://github.com/juanpatrick2001" role="button" aria-label="github"
+                            class="flex justify-center items-center" target="_blank"><i
+                              class="fab fa-github fa-xl"></i></a>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </aside>
           </div>
-          <nav>
-            <ul class="nav__content">
-              <li class="item__link"><a href="../index.html">Beranda</a></li>
-              <li class="item__link"><a href="./category.html">Menu</a></li>
-              <li class="item__link active"><a href="#">Tentang</a></li>
-            </ul>
-          </nav>
-        </div>
-        <!-- menu navigasi -->
-      </header>
-      <!-- navigasi bar -->
-      <main>
-        <div id="content">
-          <section id="intro">
-            <div class="title__section">
-              <h1>I make this website because I want to show my passion</h1>
+          <!-- card -->
+        </section>
+        <section id="process">
+          <header class="title__section">
+            <em>Web Resepi tidak dapat berdiri sendiri tanpa proses</em>
+          </header>
+          <section class="work__section flex">
+            <div class="pic">
+              <img src="../assets/images/about/idea.png" width="100%" alt="idea" />
             </div>
-            <!-- card -->
-            <div class="content">
-              <aside class="card bg-white mx-auto">
-                <div class="card__header">
-                  <img
-                    src="../assets/images/about/Juan.png"
-                    width="200"
-                    class="rounded"
-                    alt="profil-pic"
-                  />
-                </div>
-                <div class="card__body">
-                  <table class="mx-auto">
-                    <tbody>
-                      <tr>
-                        <td>Nama</td>
-                        <td>Juan Patrick</td>
-                      </tr>
-                      <tr>
-                        <td>Pekerjaan</td>
-                        <td>
-                          <ul>
-                            <li>Mahasiswa</li>
-                            <li>
-                              Peserta Bangkit learning path Cloud Computing
-                            </li>
-                            <li>Web Developer</li>
-                          </ul>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Skills</td>
-                        <td>HTML, CSS, JavaScript, Node Js, React Js, PSQL</td>
-                      </tr>
-                      <tr>
-                        <td class="vertical-middle">Ikuti saya:</td>
-                        <td>
-                          <div id="user__social" class="flex">
-                            <a
-                              href="https://www.instagram.com/juanpatrickseow"
-                              role="button"
-                              aria-label="instagram"
-                              class="flex justify-center items-center"
-                              target="_blank"
-                              ><i class="fab fa-instagram fa-xl"></i
-                            ></a>
-                            <a
-                              href="https://www.linkedin.com/in/juan-patrick-1018b3172"
-                              role="button"
-                              aria-label="linkedin"
-                              class="flex justify-center items-center"
-                              target="_blank"
-                              ><i class="fab fa-linkedin fa-xl"></i
-                            ></a>
-                            <a
-                              href="https://github.com/juanpatrick2001"
-                              role="button"
-                              aria-label="github"
-                              class="flex justify-center items-center"
-                              target="_blank"
-                              ><i class="fab fa-github fa-xl"></i
-                            ></a>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </aside>
-            </div>
-            <!-- card -->
+            <article class="detail__section">
+              <h2>Idea</h2>
+              <p>
+                Saya (Juan) memiliki hobi kuliner dan memasak dan ingin
+                memutuskan untuk berbagi cerita kepada pembaca tentang kuliner
+                di seluruh dunia.
+                <q>Saya yakin masih sangat banyak kuliner di seluruh dunia,
+                  namun saya berharap pembaca dapat betah melihat resep</q>
+                - Juan Patrick
+              </p>
+            </article>
           </section>
-          <section id="process">
-            <div class="title__section">
-              <em>Web Resepi tidak dapat berdiri sendiri tanpa proses</em>
+          <section class="work__section flex flex-row-reverse">
+            <div class="pic">
+              <img src="../assets/images/about/design.png" width="100%" alt="design" />
             </div>
-            <div class="work__section flex">
-              <div class="pic">
-                <img
-                  src="../assets/images/about/idea.png"
-                  width="100%"
-                  alt="idea"
-                />
+            <article class="detail__section">
+              <h2>Design</h2>
+              <p>
+                Dengan pengalaman kurang lebih 6 bulan, saya bekerja sebagai
+                Front End sekaligus berkolaborasi bersama dengan UI/UX
+                menciptakan desain produk yang baik. Saya suka merancang dan
+                mendesain sebuah tampilan dengan pengalaman dan referensi
+                untuk membuat web Resepi.
+              </p>
+              <div class="footer__section flex items-center">
+                <p>Cek Desain Figma saya buat:</p>
+                <a href="https://www.figma.com/file/AiKn3EE4ZHh3ZEDTDo9QkS/Cooking?node-id=26%3A354"
+                  class="text-underline" target="_blank"><i class="fa-brands fa-figma fa-2x"></i></a>
               </div>
-              <div class="detail__section">
-                <h2>Idea</h2>
-                <p>
-                  Saya (Juan) memiliki hobi kuliner dan memasak dan ingin
-                  memutuskan untuk berbagi cerita kepada pembaca tentang kuliner
-                  di seluruh dunia.
-                  <q
-                    >Saya yakin masih sangat banyak kuliner di seluruh dunia,
-                    namun saya berharap pembaca dapat betah melihat resep</q
-                  >
-                  - Juan Patrick
-                </p>
-              </div>
-            </div>
-            <div class="work__section flex flex-row-reverse">
-              <div class="pic">
-                <img
-                  src="../assets/images/about/design.png"
-                  width="100%"
-                  alt="design"
-                />
-              </div>
-              <div class="detail__section">
-                <h2>Design</h2>
-                <p>
-                  Dengan pengalaman kurang lebih 6 bulan, saya bekerja sebagai
-                  Front End sekaligus berkolaborasi bersama dengan UI/UX
-                  menciptakan desain produk yang baik. Saya suka merancang dan
-                  mendesain sebuah tampilan dengan pengalaman dan referensi
-                  untuk membuat web Resepi.
-                </p>
-                <div class="footer__section flex items-center">
-                  <p>Cek Desain Figma saya buat:</p>
-                  <a
-                    href="https://www.figma.com/file/AiKn3EE4ZHh3ZEDTDo9QkS/Cooking?node-id=26%3A354"
-                    class="text-underline"
-                    target="_blank"
-                    ><i class="fa-brands fa-figma fa-2x"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="work__section flex">
-              <div class="pic">
-                <img
-                  src="../assets/images/about/building.png"
-                  width="100%"
-                  alt="build"
-                />
-              </div>
-              <div class="detail__section">
-                <h2>Building</h2>
-                <p>
-                  Web Resepi dibangun menggunakan HTML, CSS, dan JavaScript.
-                  Juan membangun web dengan bantuan materi tambahan dari kelas
-                  <a
-                    href="https://www.dicoding.com/academies/123"
-                    class="text-underline"
-                    target="_blank"
-                    >Dicoding - Belajar Dasar Pemrograman Web</a
-                  >
-                </p>
-              </div>
-            </div>
-            <div class="work__section flex flex-row-reverse">
-              <div class="pic">
-                <img
-                  src="../assets/images/about/testing.png"
-                  width="100%"
-                  alt="test"
-                />
-              </div>
-              <div class="detail__section">
-                <h2>Testing</h2>
-                <p>
-                  Selama proses pembangunan, web Resepi diuji dari Front End
-                  Testing dengan memastikan web secara fungsional dan responsif
-                  layar bekerja dengan baik
-                </p>
-              </div>
-            </div>
-            <div class="work__section flex">
-              <div class="pic">
-                <img
-                  src="../assets/images/about/deployment.png"
-                  width="100%"
-                  alt="test"
-                />
-              </div>
-              <div class="detail__section">
-                <h2>Deployment</h2>
-                <p>
-                  Web ini tidak akan selamanya disimpan sendiri.
-                  <q
-                    >Saya berharap website ini dapat diakses oleh banyak orang
-                    dan semua dapat menikmati web aplikasi. Saya memutuskan
-                    untuk mempublikasikan web untuk menunjukkan rasa bangga dan
-                    saya yakin web ini bisa dikembangkan lebih baik.</q
-                  >
-                </p>
-                <div class="footer__section flex items-center">
-                  <span
-                    >Cek link web saya:
-                    <a
-                      href="https://recipe-page-fawn.vercel.app"
-                      class="text-underline"
-                      target="_blank"
-                      >https://recipe-page-fawn.vercel.app
-                      <i class="fa-solid fa-arrow-up-right-from-square"></i></a
-                  ></span>
-                </div>
-              </div>
-            </div>
+            </article>
           </section>
-        </div>
-      </main>
-      <footer>
-        <!-- menu footer -->
-        <div id="menu__footer" class="flex">
-          <!-- menu utama -->
-          <div id="menu__head" class="text-uppercase">
-            <ul>
-              <li class="menu__link"><a href="../index.html">Beranda</a></li>
-              <li class="menu__link"><a href="#">Tentang</a></li>
-            </ul>
-          </div>
-          <!-- menu utama -->
-          <!-- menu kategori resep -->
-          <div id="menu__category">
-            <div>
-              <h3 class="text-uppercase"><a href="./category.html">Menu</a></h3>
+          <section class="work__section flex">
+            <div class="pic">
+              <img src="../assets/images/about/building.png" width="100%" alt="build" />
             </div>
-            <div id="menu__wrap" class="flex">
-              <div class="menu__col">
-                <ul>
-                  <li class="menu__link">
-                    <a href="./category.html?food=American">Masakan Amerika</a>
-                  </li>
-                  <li class="menu__link">
-                    <a href="./category.html?food=Chinese">Masakan China</a>
-                  </li>
-                  <li class="menu__link">
-                    <a href="./category.html?food=Japanese">Masakan Jepang</a>
-                  </li>
-                </ul>
+            <article class="detail__section">
+              <h2>Building</h2>
+              <p>
+                Web Resepi dibangun menggunakan HTML, CSS, dan JavaScript.
+                Juan membangun web dengan bantuan materi tambahan dari kelas
+                <a href="https://www.dicoding.com/academies/123" class="text-underline" target="_blank">Dicoding -
+                  Belajar Dasar Pemrograman Web</a>
+              </p>
+            </article>
+          </section>
+          <section class="work__section flex flex-row-reverse">
+            <div class="pic">
+              <img src="../assets/images/about/testing.png" width="100%" alt="test" />
+            </div>
+            <article class="detail__section">
+              <h2>Testing</h2>
+              <p>
+                Selama proses pembangunan, web Resepi diuji dari Front End
+                Testing dengan memastikan web secara fungsional dan responsif
+                layar bekerja dengan baik
+              </p>
+            </article>
+          </section>
+          <section class="work__section flex">
+            <div class="pic">
+              <img src="../assets/images/about/deployment.png" width="100%" alt="test" />
+            </div>
+            <article class="detail__section">
+              <h2>Deployment</h2>
+              <p>
+                Web ini tidak akan selamanya disimpan sendiri.
+                <q>Saya berharap website ini dapat diakses oleh banyak orang
+                  dan semua dapat menikmati web aplikasi. Saya memutuskan
+                  untuk mempublikasikan web untuk menunjukkan rasa bangga dan
+                  saya yakin web ini bisa dikembangkan lebih baik.</q>
+              </p>
+              <div class="footer__section flex items-center">
+                <span>Cek link web saya:
+                  <a href="https://recipe-page-fawn.vercel.app" class="text-underline"
+                    target="_blank">https://recipe-page-fawn.vercel.app
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
               </div>
-              <div class="menu__col">
-                <ul>
-                  <li class="menu__link">
-                    <a href="./category.html?food=Indonesian"
-                      >Masakan Indonesia</a
-                    >
-                  </li>
-                  <li class="menu__link">
-                    <a href="./category.html?food=Malaysia">Masakan Malaysia</a>
-                  </li>
-                  <li class="menu__link">
-                    <a href="./category.html?food=Singapore"
-                      >Masakan Singapura</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="menu__col">
-                <ul>
-                  <li class="menu__link">
-                    <a href="./category.html?food=Thailand">Masakan Thailand</a>
-                  </li>
-                </ul>
-              </div>
+            </article>
+          </section>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <!-- menu footer -->
+      <div id="menu__footer" class="flex">
+        <!-- menu utama -->
+        <div id="menu__head" class="text-uppercase">
+          <ul>
+            <li class="menu__link"><a href="../index.html">Beranda</a></li>
+            <li class="menu__link"><a href="#">Tentang</a></li>
+          </ul>
+        </div>
+        <!-- menu utama -->
+        <!-- menu kategori resep -->
+        <div id="menu__category">
+          <div>
+            <h3 class="text-uppercase"><a href="./category.html">Menu</a></h3>
+          </div>
+          <div id="menu__wrap" class="flex">
+            <div class="menu__col">
+              <ul>
+                <li class="menu__link">
+                  <a href="./category.html?food=American">Masakan Amerika</a>
+                </li>
+                <li class="menu__link">
+                  <a href="./category.html?food=Chinese">Masakan China</a>
+                </li>
+                <li class="menu__link">
+                  <a href="./category.html?food=Japanese">Masakan Jepang</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu__col">
+              <ul>
+                <li class="menu__link">
+                  <a href="./category.html?food=Indonesian">Masakan Indonesia</a>
+                </li>
+                <li class="menu__link">
+                  <a href="./category.html?food=Malaysia">Masakan Malaysia</a>
+                </li>
+                <li class="menu__link">
+                  <a href="./category.html?food=Singapore">Masakan Singapura</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu__col">
+              <ul>
+                <li class="menu__link">
+                  <a href="./category.html?food=Thailand">Masakan Thailand</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <!-- menu kategori resep -->
-          <!-- menu sosial media -->
-          <div id="menu__social">
-            <h3 class="text-uppercase text-center">Hubungi Kami</h3>
-            <div id="collection__social" class="flex justify-center">
-              <a
-                href="#"
-                role="button"
-                aria-label="facebook"
-                class="btn__social flex justify-center items-center rounded"
-                ><i class="fab fa-facebook-f fa-xl"></i
-              ></a>
-              <a
-                href="#"
-                role="button"
-                aria-label="instagram"
-                class="btn__social flex justify-center items-center rounded"
-                ><i class="fab fa-instagram fa-xl"></i
-              ></a>
-              <a
-                href="#"
-                role="button"
-                aria-label="email"
-                class="btn__social flex justify-center items-center rounded"
-                ><i class="fa-solid fa-envelope fa-xl"></i
-              ></a>
-              <a
-                href="#"
-                role="button"
-                aria-label="whatsapp"
-                class="btn__social flex justify-center items-center rounded"
-                ><i class="fab fa-whatsapp fa-xl"></i
-              ></a>
-            </div>
+        </div>
+        <!-- menu kategori resep -->
+        <!-- menu sosial media -->
+        <div id="menu__social">
+          <h3 class="text-uppercase text-center">Hubungi Kami</h3>
+          <div id="collection__social" class="flex justify-center">
+            <a href="#" role="button" aria-label="facebook"
+              class="btn__social flex justify-center items-center rounded"><i class="fab fa-facebook-f fa-xl"></i></a>
+            <a href="#" role="button" aria-label="instagram"
+              class="btn__social flex justify-center items-center rounded"><i class="fab fa-instagram fa-xl"></i></a>
+            <a href="#" role="button" aria-label="email" class="btn__social flex justify-center items-center rounded"><i
+                class="fa-solid fa-envelope fa-xl"></i></a>
+            <a href="#" role="button" aria-label="whatsapp"
+              class="btn__social flex justify-center items-center rounded"><i class="fab fa-whatsapp fa-xl"></i></a>
           </div>
-          <!-- menu social media -->
         </div>
-        <!-- menu footer -->
-        <!-- sign -->
-        <div id="menu__signature">
-          <span
-            >created by
-            <a
-              href="https://www.dicoding.com/users/juan_patrick"
-              target="_blank"
-              class="text-underline"
-              >Juan Patrick</a
-            >
-            - Dicoding Indonesia
-          </span>
-        </div>
-        <!-- sign -->
-      </footer>
-    </div>
-    <script src="../assets/js/script.js"></script>
-  </body>
+        <!-- menu social media -->
+      </div>
+      <!-- menu footer -->
+      <!-- sign -->
+      <div id="menu__signature">
+        <span>created by
+          <a href="https://www.dicoding.com/users/juan_patrick" target="_blank" class="text-underline">Juan Patrick</a>
+          - Dicoding Indonesia
+        </span>
+      </div>
+      <!-- sign -->
+    </footer>
+  </div>
+  <script src="../assets/js/script.js"></script>
+</body>
+
 </html>

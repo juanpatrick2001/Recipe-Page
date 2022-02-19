@@ -33,7 +33,7 @@ a {
 }
 
 /* navigasi bar */
-header {
+#navbar {
   width: 100%;
   background-color: #ffffff;
   padding: 10px 0;
@@ -167,7 +167,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  header {
+  #navbar {
     overflow: hidden;
     padding: 20px 0;
   }
